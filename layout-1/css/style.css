@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+header{
+  background-color: lightslategray;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
 .container{
   /* DEBUG */
   min-height: 700px;
@@ -12,7 +21,7 @@
   display: flex;
 }
 
-nav{
+.container nav{
   /* DEBUG */
   background-color: lightgreen;
   /* /DEBUG */
@@ -30,4 +39,22 @@ main{
 
 ul{
   list-style-type: none;
+}
+
+.header-nav ul{
+  display: flex;
+  gap: 10px;
+}
+
+.actions{
+  display: flex;
+  text-align: right;
+}
+
+footer{
+  background-color: lightyellow;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
